@@ -1,39 +1,32 @@
 ---
-title: Hello World
+title: Use gsutil to deploy local contents to gcs
 abbrlink: 4a17b156
+tags: GCP
+date: 2020-11-23 21:21:49
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+Install gsutil from PyPI.
 
-## Quick Start
-
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
+```
+pip install gsutil
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+Open google cloud sdk shell.
 
-### Run server
+gsutil commands:
 
-``` bash
-$ hexo server
+Do not use uniform bucket-level access.
+
+The "defacl set" command:
+
+```
+gsutil defacl set public-read gs://www.example.com
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
+The gsutil rsync command:
 
-### Generate static files
-
-``` bash
-$ hexo generate
+```
+gsutil -m rsync -R local-dir gs://www.example.com
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+References:
+<https://cloud.google.com/storage/docs/gsutil>
