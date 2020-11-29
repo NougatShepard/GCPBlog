@@ -118,10 +118,12 @@ darkmode: false
 # External url should start with http:// or https://
 menu:
   Home: / || home
-  music: /music/ || music
-  photos: /photos/ || image
+  About: /about/ || user
+  Links: /links/ || link
+  Wishes: /wishes/ || th-list
+  Music: /music/ || music
+  Photos: /photos/ || image
   Movies: /movies || film
-  #about: /about/ || user
   #tags: /tags/ || tags
   #categories: /categories/ || th
   #archives: /archives/ || archive
@@ -208,7 +210,9 @@ links_settings:
   layout: block
 
 links:
-  #Title: http://yoursite.com
+  Spotify: https://link.tospotify.com/ZtcrA9WdEbb || spotify
+  Yuri⭐️Ani: https://t.me/YurixAni || telegram
+  ⭐️LGLJITT: https://t.me/LGLJITT || telegram
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -250,8 +254,8 @@ post_meta:
   item_text: true
   created_at: true
   updated_at:
-    enable: true
-    another_day: true
+    enable: false
+    another_day: false
   categories: true
 
 # Post wordcount display settings
@@ -364,7 +368,7 @@ codeblock:
   highlight_theme: normal
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result.
     show_result: false
     # Available values: default | flat | mac
@@ -746,7 +750,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto

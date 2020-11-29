@@ -1,8 +1,8 @@
 ---
 title: Use gsutil to deploy local contents to gcs
 abbrlink: 4a17b156
-tags: GCP
 date: 2020-11-23 21:21:49
+tags: GCP
 ---
 Install gsutil from PyPI.
 

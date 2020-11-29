@@ -4,7 +4,7 @@
 
 # Site
 title: Miracles, Magic. They are real.
-subtitle: ''
+subtitle: '一切价值源于生命给予的定义，生命本身为最高价值。--木森七问易楚'
 description: ''
 keywords:
 author: Yuzu Sakurada
@@ -134,3 +134,10 @@ nofollow:
 # 通用站点地图
 sitemap:
   path: sitemap.xml
+
+# 本地搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 100
