@@ -6,7 +6,7 @@ type: "about"
 # Persona Profile
 Freeganism.
 Anti-consumerism.
-LGBT right supporter.
+LGBT right supporter (But I am not a trans / MtF).
 Cryptocurrency service provider.
 Struggled with Irritable Bowel Syndrome (IBS), Paleo/Keto/SCD/Gluten-free, made a success.
 Hold Brothers Capital, LLC: DT.
@@ -27,7 +27,12 @@ Other services in google cloud platform.
 *****
 # How to request a link exchange
 1.Add a link on your site for my blog.
-2.Email to <admin@kamisu66.com> with you domain.
+2.Email to <admin@kamisu66.com> with you you name, avatar, site, info.
+For example:
+name: Miracles, Magic. They are real.
+avatar: https://www.kamisu66.com/images/kashiwada_agadgqadvjaniq.png
+site: https://www.kamisu66.com/
+info: 一切价值源于生命给予的定义，生命本身为最高价值。
 
 
 
