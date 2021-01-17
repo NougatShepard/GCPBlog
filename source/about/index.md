@@ -6,11 +6,11 @@ type: "about"
 # Persona Profile
 Freeganism.
 Anti-consumerism.
-LGBT right supporter (But I am not a trans / MtF).
+LGBT right supporter.
 Cryptocurrency service provider.
 Struggled with Irritable Bowel Syndrome (IBS), Paleo/Keto/SCD/Gluten-free, made a success.
 Hold Brothers Capital, LLC: DT.
-Engineer:Java/Python/Angular/Node.js
+Engineer: Python/Angular/Node.js
 *****
 # About this site
 Blog created in 2019/03.
